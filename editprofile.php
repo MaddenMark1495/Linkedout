@@ -286,7 +286,7 @@ $dbhost = "us-cdbr-azure-central-a.cloudapp.net";
             <input class = 'form-control' type ="text" name = " firstname" placeholder="First Name" value="<?php echo $user_row['fname']; ?>">
           <input class = 'form-control' type ="text" name = " lastname" placeholder="Last Name" value="<?php echo $user_row['lname']; ?>">
           </h4>
-
+ 
           <h4 id = "occupation">Occupation
             <input class = 'form-control' type ="text" name = " occupation" placeholder="occupation">
             </h4>
