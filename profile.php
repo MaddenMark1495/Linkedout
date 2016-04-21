@@ -1,8 +1,16 @@
 <?php
 	session_start();
+<<<<<<< HEAD
 	if(!$_SESSION['islogin']) {
 		header("Location: index.php");
 	}
+=======
+/*
+	if(!$_SESSION['islogin']) {
+		header("Location: index.php");
+	}
+*/
+>>>>>>> MaddenMark1495/master
  ?>
 <!DOCTYPE html>
 <html>
@@ -21,13 +29,27 @@
         .row{
         margin-bottom: 30px
         }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> MaddenMark1495/master
         #profile_info{
         border: 1px solid grey ;
         background-color:#FFFFFF;
         }
+<<<<<<< HEAD
        #background{
         border: 1px solid grey;
          background-color:#FFFFFF;
+=======
+
+       #background{
+
+        border: 1px solid grey;
+         background-color:#FFFFFF;
+
+>>>>>>> MaddenMark1495/master
         }
         #profile_pic{
             border: 1px solid grey;
@@ -37,12 +59,23 @@
     color:black;
     background-color:#33ff77;
     }
+<<<<<<< HEAD
         body{
             background-color:#f2f2f2;
+=======
+
+        body{
+            background-color:#f2f2f2;
+
+>>>>>>> MaddenMark1495/master
         }
         h4, h5, p{
             padding-left: 10px;
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> MaddenMark1495/master
     </style>
 
 
